@@ -1,0 +1,156 @@
+body {
+   margin: 0px;
+   display: flex;
+   flex-direction: column;
+}
+
+#nav {
+    color: white;
+    font-size: 25px;
+    float: right;
+    padding-right: 35px;
+    padding-top: 10px;
+    max-width: 98%;
+    
+}
+#nav a {
+    font-family: 'Koh Santepheap';
+}
+
+h1 {
+    padding-top: 170px;
+    display: flex;
+    justify-content: center;
+align-items: center;
+color: white;
+font-size: 100px;
+font-family: 'Scheherazade New', serif;
+font-weight: lighter;
+margin-bottom: 30px;
+}
+
+h2 {
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'Scheherazade New', serif;
+font-weight: lighter;
+}
+
+h3 {
+    font-size: 50px;
+    font-family: 'Cormorant Garamond', serif;
+    color: white;
+    margin-bottom: 1px;
+}
+
+a {
+    font-family: 'Cormorant Garamond', serif;
+    color: white;
+}
+
+p {
+    font-family: 'Cormorant Garamond', serif;
+    color: white;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+#header {
+    background-image: url(photos/greens.jpg);
+    height: 750px; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.line2 {
+    width: 95%;
+    border-top: 2px solid white;
+}
+
+.line1 hr {
+    width: 40%;
+    border-top: 2px solid white;
+    margin-top: -15px;
+    
+
+}
+
+.fresh {
+    margin-bottom: -10px;
+    height: 0px;
+    padding-top: 0px;
+    padding-left: 35px;
+}
+
+#para1 {
+height: 450px;
+max-width: 100%;
+background-color: #1c1b1b;
+display: flex;
+}
+
+.photo1 {
+    background-image: url(photos/bread.jpg);
+    height: 450px;
+    width: 50%;
+background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+
+.words1 {
+    width: 60%;
+    margin: 65px;
+    padding-left: 25px;
+}
+
+
+
+#para2 {
+    height: 450px;
+    background-color: #30302f;
+    display: flex;
+}
+
+
+
+.photo2 {
+    background-image: url(photos/pineapple.jpg);
+    height: 450px;
+    width: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+ 
+ 
+    
+}
+.words2 {
+    width: 60%;
+    margin: 65px;
+    padding-left: 25px;
+}
+
+#para3 {
+    height: 450px;
+    background-color: #1c1c1c;
+    display: flex;
+}
+
+.photo3 {
+    background-image: url(photos/pasta.jpg);
+    height: 450px;
+    width: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.words3 {
+    width: 60%;   
+    margin: 65px;
+    padding-left: 25px;
+}
